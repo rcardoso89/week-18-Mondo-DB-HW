@@ -20,7 +20,7 @@ mongoose.Promise = Promise;
 // Initialize Express
 var app = express();
 
-var port = process.env.PORT || 2080;
+var port = process.env.PORT || 1120;
 
 // Use morgan and body parser with our app
 app.use(logger("dev"));
