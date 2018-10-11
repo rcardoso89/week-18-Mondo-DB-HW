@@ -1,18 +1,17 @@
 # HW-18-MongoDB With Mongoose
 
 ## Live Link
- - 
+ - https://pacific-eyrie-75194.herokuapp.com/
 
-## Description on how to use the app
+### Helpful Links
 
-If you would like to get updated articles, go to https://warm-inlet-84146.herokuapp.com/scrape. 
-
-## Requirements
-
+* [MongoDB Documentation](https://docs.mongodb.com/manual/)
+* [Mongoose Documentation](http://mongoosejs.com/docs/api.html)
+* [Cheerio Documentation](https://github.com/cheeriojs/cheerio)
 
 ### Overview
 
-In this assignment, you'll create a web app that lets users leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
+In this assignment, you'll create a web app that lets users leave comments on the latest news. But you're not going to actually write any articles; instead, you'll use Mongoose and Cheerio to scrape news from another site.
 
 ### Before You Begin
 
@@ -50,23 +49,16 @@ In this assignment, you'll create a web app that lets users leave comments on th
   3. All users can leave comments on the stories you collect. They should also be allowed to delete whatever comments they want removed. All stored comments should be visible to every user.
   4. You'll need to use Mongoose's model system to associate comments with particular articles. 
 
-### Helpful Links
-
-* [MongoDB Documentation](https://docs.mongodb.com/manual/)
-* [Mongoose Documentation](http://mongoosejs.com/docs/api.html)
-* [Cheerio Documentation](https://github.com/cheeriojs/cheerio)
-
-
 ## Technologies Used
 
+- Heroku
+- JQuery
+- JavaScript
 - MongoDB Database
 - Mongoose
 - Scraping
 - HTML
 - CSS
-- JQuery
-- JavaScript
 - Express Server
 - Node.js
 - MVC Structure
-- Heroku
