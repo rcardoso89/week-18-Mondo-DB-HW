@@ -20,7 +20,7 @@ mongoose.Promise = Promise;
 // Initialize Express
 var app = express();
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 2080;
 
 // Use morgan and body parser with our app
 app.use(logger("dev"));
@@ -32,7 +32,8 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://heroku_rrj9mlws:hqtd47rrelr7d7srn9hpdpa0bj@ds163721.mlab.com:63721/heroku_rrj9mlws");
+//mongoose.connect("mongodb://rcardosomlab:Banana2018!@ds257732.mlab.com:57732/heroku_lcfht24j");
+mongoose.connect("mongodb://localhost/mongoscraper");
 var db = mongoose.connection;
 
 // Show any mongoose errors
