@@ -1,4 +1,6 @@
-# HW-18-MongoDB With Mongoose
+# MongoDB With Mongoose
+
+In this application we scrape news and users are able to comment on the news articles. Mongoose and Cheerio are used to scrape the articles.
 
 ## Live Link
  - https://pacific-eyrie-75194.herokuapp.com/
